@@ -15,3 +15,8 @@ h1 {
 h2 {
     margin-top: 90px;
 }
+
+body {
+    background-color: black;
+    color: white;
+}
