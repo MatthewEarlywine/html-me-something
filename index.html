@@ -3,23 +3,24 @@
 <html>
    <head>
       <title>HTML Me Something</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
    </head>
     
    <body>
       <article>
-         <header><h1>My Favorite Books</h1></header>
-            <p>For as long as I can remember, I have loved to read. Mysteries, adventures, mythologies, histories, you 
+         <section class="sections">
+           <header><h1>My Favorite Books</h1></header>
+            <p id="opener">For as long as I can remember, I have loved to read. Mysteries, adventures, mythologies, histories, you 
                name it and I just ate it up. So, with books being such a large part of my life, I&apos;d like to share
                some of my personal favorite books with you.</p>
-      
+         </section>
 
-         <ul>
-            <section>
-            <li><h2><u>After Man: A Zoology of the Future</u></h2></li>
+         
+         <section class="sections">
+           <h2><u>After Man: A Zoology of the Future</u></h2>
             <h3>By: Dougal Dixon</h3>
             <figure>
-               <img src="images/after man cover.jpg" alt="After Man: A Zoology of the Future">
-               <figcaption>After Man: A Zoology of the Future</figcaption>
+               <img id="after-man-book-cover" src="images/after man cover.jpg" alt="After Man: A Zoology of the Future">
             </figure>
          
             <p>This text presents possible outcomes on the development of life on Earth one million years
@@ -29,14 +30,13 @@
                an interesting and reasonably scientifically-grounded argument, but he also provides some extremely
                well-done illustrations of his various thought-experiment species. 
             </p>
-            </section>
+         </section>
 
-            <section>
-               <li><h2><u>Norse Mythology</u></h2></li>
-               <h3>By: Neil Gaiman</h3>
+         <section class="sections">
+            <h2><u>Norse Mythology</u></h2>
+              <h3>By: Neil Gaiman</h3>
                <figure>
                   <img src="images/gaimans-norse-mythology-cover.jpg" alt="Norse Mythology">
-                  <figcaption>Norse Mythology</figcaption>
                </figure>
             
                <p>A recent addition to my library, acclaimed author Neil Gaiman takes the wit and style that 
@@ -45,14 +45,14 @@
                   present in older, more academic retellings. While sadly not in an illustrated format,
                   the vivaciousness of Gaiman&apos;s prose can very well make you think otherwise.
                </p>
-               </section>
+         </section>
 
-            <section>
-               <li><h2><u>&apos;The Dresden Files&apos; Series</u></h2></li>
-               <h3>By: Jim Butcher</h3>
+         <section class="sections">
+            <h2><u>&apos;The Dresden Files&apos; Series</u></h2>
+              <h3>By: Jim Butcher</h3>
                <figure>
                   <img src="images/dresden-files-01-12.jpg" alt="The Dresden Files">
-                  <figcaption>The Dresden Files</figcaption>
+                  <figcaption>The Dresden Files, Books 1 through 12</figcaption>
                </figure>
             
                <p>Equal parts fantasy adventure and hard-boiled detective story, &apos;The Dresden Files&apos;
@@ -60,9 +60,9 @@
                   a television series, and a tabletop role-playing game. I first statrted this series as a way to
                   pass the time on an inter-continental flight, and I haven&apos;t put it down yet. 
                </p>
-               </section>
+            </section>
 
-         </ul>
+         
       <footer>Author: Matthew Earlywine</footer>
      </article>
    </body>
